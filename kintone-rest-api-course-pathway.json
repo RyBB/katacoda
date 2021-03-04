@@ -1,0 +1,11 @@
+{
+  "title": "kintone REST API",
+  "description": "kintone REST APIが学べるコースです。",
+  "courses": [
+    {
+      "course_id": "kintone-rest-api-scenario-1",
+      "title": "初級編",
+      "description": "kintone REST APIの基礎が学べます。"
+    }
+  ]
+}
