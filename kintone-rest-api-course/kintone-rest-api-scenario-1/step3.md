@@ -30,9 +30,9 @@ kintone REST APIでレコードデータを操作する場合、どのアプリ�
 
 ```
 curl -X "POST" "https://cy-sc.cybozu.com/k/v1/record.json" \
--H "X-Cybozu-API-Token: lUBe5PldjszLwvyB2NbwHnxJ8BzGR50yo6cMUj32" \
+-H "X-Cybozu-API-Token: YOUR_TOKEN" \
 -H "Content-Type: application/json" \
--d "{\"app\": \"685\", \"record\": {\"text\": {\"value\": \"kintone\"}}}"
+-d "{\"app\": \"YOUR_APP_ID\", \"record\": {\"text\": {\"value\": \"kintone\"}}}"
 ```
 
 レスポンスとして、
