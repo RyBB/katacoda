@@ -29,6 +29,6 @@
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "node12"
+    "imageid": "nodejs:12"
   }
 }
