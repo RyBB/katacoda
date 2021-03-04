@@ -5,29 +5,29 @@ Run `npm install @kintone/rest-api-client`{{execute}} to install the API.
 Now, we can import and initialize our Alpaca module.
 
 <pre class="file" data-filename="main.js" data-target="append">
+const API_TOKEN = "YOUR_TOKEN";
+const APP_ID = "YOUR_APP_ID";
 
 const { KintoneRestAPIClient } = require('@kintone/rest-api-client');
 // クライアントの作成
 const client = new KintoneRestAPIClient({
   baseUrl: 'https://cy-sc.cybozu.com',
   auth: {
-    apiToken: YOUR_TOKEN
+    apiToken: API_TOKEN
   }
 });
 
 // リクエストパラメータの設定
-const APP_ID = YOUR_APP_ID;
-const RECORD_ID = 1;
 const params = {
-  app: APP_ID,
-  id: RECORD_ID
+  app: APP_ID
 };
 
 // レコードの取得
-client.record.getRecord(params).then((resp) => {
-  console.log(resp.record);
+client.record.getRecords(params)
+.then((resp) => {
+  console.dir(resp.records);
 }).catch((err) => {
-  console.log(err);
+  console.error(err);
 });
 </pre>
 
