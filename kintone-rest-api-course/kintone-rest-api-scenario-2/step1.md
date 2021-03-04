@@ -16,7 +16,7 @@ const client = new KintoneRestAPIClient({
 });
 
 // リクエストパラメータの設定
-const APP_ID = 1;
+const APP_ID = YOUR_APP_ID;
 const RECORD_ID = 1;
 const params = {
   app: APP_ID,
