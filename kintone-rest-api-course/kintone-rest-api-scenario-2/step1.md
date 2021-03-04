@@ -1,8 +1,7 @@
-First, let's install the Alpaca API from npm.
+kintoneには[rest-api-client](https://github.com/kintone/js-sdk/tree/master/packages/rest-api-client)というSDKがあります。<br/>
+今回はこのSDKを使ってNode.js上でkintone REST APIを実行します。
 
-Run `npm install @kintone/rest-api-client`{{execute}} to install the API.
-
-Now, we can import and initialize our Alpaca module.
+**Copy to Editor**をクリックして以下のコードを右側のエディタにコピーしてください。
 
 <pre class="file" data-filename="main.js" data-target="append">
 const API_TOKEN = "YOUR_TOKEN";
@@ -31,7 +30,10 @@ client.record.getRecords(params)
 });
 </pre>
 
-To start, let's just get your account info.
+1行目、2行目の部分を修正してください。<br/>
+<br/>
+<br/>
+次のコマンドをクリックすることでNode.jsが実行できます<br/>
+ `node ./main.js`{{execute}}
 
-
-We can run this code with `node ./main.js`{{execute}}
+---
