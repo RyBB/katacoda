@@ -28,7 +28,7 @@ kintone REST APIでレコードデータを操作する場合、どのアプリ�
 
 今回はcurlコマンドでkintoneのデータを取得します。
 
-```bash
+```
 curl "https://cy-sc.cybozu.com/k/v1/records.json?app=YOUR_APP_ID" -H "X-Cybozu-API-Token: YOUR_TOKEN"
 ```
 

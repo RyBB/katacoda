@@ -28,7 +28,7 @@ kintone REST APIでレコードデータを操作する場合、どのアプリ�
 
 今回はcurlコマンドでkintoneのデータを取得します。
 
-```bash
+```
 curl -X "POST" "https://cy-sc.cybozu.com/k/v1/record.json" \
 -H "X-Cybozu-API-Token: lUBe5PldjszLwvyB2NbwHnxJ8BzGR50yo6cMUj32" \
 -H "Content-Type: application/json" \
@@ -37,6 +37,11 @@ curl -X "POST" "https://cy-sc.cybozu.com/k/v1/record.json" \
 
 レスポンスとして、
 
-```bash
-
 ```
+{"id":"1","revision":"1"}
+```
+
+などが返ってきたら登録が成功です！kintoneの画面を確認してみましょう！
+
+---
+以上でkintone REST APIを使ってデータの登録は完了です。
