@@ -6,6 +6,11 @@
       "course_id": "kintone-rest-api-scenario-1",
       "title": "初級編",
       "description": "kintone REST APIの基礎が学べます。"
+    },
+    {
+      "course_id": "kintone-rest-api-scenario-2",
+      "title": "初級編(Node.js)",
+      "description": "Node.js上でのkintone REST APIの基礎が学べます。"
     }
   ]
 }
