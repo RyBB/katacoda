@@ -32,7 +32,7 @@ kintone REST APIでレコードデータを操作する場合、どのアプリ�
 curl -X "POST" "https://cy-sc.cybozu.com/k/v1/record.json" \
 -H "X-Cybozu-API-Token: YOUR_TOKEN" \
 -H "Content-Type: application/json" \
--d "{\"app\": \"YOUR_APP_ID\", \"record\": {\"text\": {\"value\": \"kintone\"}}}"
+-d "{\"app\": \"YOUR_APP_ID\", \"record\": {\"title\": {\"value\": \"kintone\"}}}"
 ```
 
 レスポンスとして、
